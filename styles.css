@@ -1,0 +1,165 @@
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  color: #333333;
+}
+
+p {
+	font-family: "Century Gothic", Georgia, Serif;
+	//font-family: Metro, fantasy;
+}
+
+body {
+	background-color: white; //#ffffcc;
+}
+
+header {
+	background-color: ghostwhite;
+	margin-bottom: 30px;
+	box-shadow: 5px 5px 20px #888888;
+	padding-bottom: 30px;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+	background-color: ghostwhite; //#ffff66;
+	border: 2px solid;
+	border-color: #333333; //#0099cc;
+	box-shadow: 5px 3px 10px #888888;
+}
+
+#logo {
+	margin-bottom: 20px;
+}
+
+.nav_menu {
+	list-style: none;
+	margin: 10px;
+	padding: 0;
+	font-size: 90%;
+}
+
+.nav_menu li {
+	min-width: 8em;
+	float: left;
+	margin-right: 0.5em;
+	text-align: center;
+}
+
+.nav_menu li a:link,
+.nav_menu li a:visited {
+	background-color: #3c8943; //#33cc99;
+	display: block;
+	padding: 0.2em;
+	text-decoration: none;
+	font-weight: bold;
+	margin: 0 0 0 0.2em 0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	box-shadow: 3px 3px 3px 3px rgba(43, 43, 77, 0.5);
+}
+
+.nav_menu li a:hover {
+	background-color: #275393;
+	-webkit-transform: scale(2,2);
+	-ms-transform: scale(2,2);
+	transform: scale(2,2);
+}
+
+.nav_menu a {
+	display: block;
+	width: 90px;
+	font-family: century gothic;
+}
+
+.clear {
+	clear: both;
+}
+
+/*#mainBody {
+	background-color: #ccff66;
+}*/
+
+#welcomeDiv {
+	background-color: white;
+	float: left;
+	width: 68%;
+	margin-right: 20px;
+	padding: 25px;
+	margin-left: 10px;
+	box-shadow: 5px 3px 50px #888888;
+}
+
+#newsLetter {
+	background-color: white; //#ccff99;
+	float: left;
+	padding: 10px;
+	width: 20%;
+	margin-bottom: 3px;
+	box-shadow: 5px 3px 50px #888888;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+#leftDiv {
+	background-color: white;
+	float: left;
+	width: 40%;
+	height: 200px;
+	padding: 10px;
+	//border: 2px solid;
+	margin: 20px;
+	box-shadow: 10px 10px 5px #888888;
+	font-family: calibri;
+}
+
+#leftDiv img {
+	max-height: 100px;
+	max-width: 100px;
+	float: right;
+}
+
+#rightDiv {
+	background-color: white;
+	float: right;
+	width: 40%;
+	height: 200px;
+	padding: 10px;
+	//border: 2px solid;
+	margin: 20px;
+	box-shadow: 10px 10px 5px #888888;
+	font-family: vani;
+}
+
+#rightDiv img {
+	max-height: 100px;
+	max-width: 100px;
+	float: right;
+}
+
+.list_leftDiv {
+	list-style: none;
+	margin: 20px;
+	padding: 0;
+}
+
+.list_leftDiv li {
+	min-width: 10em;
+	float: left;
+	margin-right: 1.5em;
+	text-align: left;
+}
+
+footer {
+	height: 30px;
+	background-color: ghostwhite;
+	color: blue;
+	text-align: right;
+	padding-right: 10px;
+	padding-top: 10px;
+	//box-shadow: 10px 10px 5px #888888;
+	font-size: 70%;
+}
